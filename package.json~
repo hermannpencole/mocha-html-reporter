@@ -9,13 +9,17 @@
   "keywords": [
     "mocha",
     "reporter",
-    "html"
+    "html",
+    "coverage"
   ],
-  "licenses": "WTFPL",
+  "licenses": [
+    {
+      "type": "2-clause BSD",
+      "url": "https://raw.github.com/StevenLooman/mco/master/LICENSE"
+    }
+  ],
   "dependencies": {},
-  "devDependencies": {
-    "mocha": "1.6.x"
-  },
+  "devDependencies": {},
   "directories": {
     "lib": "./lib"
   },
@@ -23,15 +27,13 @@
   "engines": {
     "node": ">= 0.6.0"
   },
-  "scripts": {
-    "test": "mocha"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git://github.com/HermannPencole/mocha-html-reporter.git"
+    "url": "git://github.com/StevenLooman/mocha-html-reporter.git"
   },
   "readme": "mocha-html-reporter\n===================\n",
-  "readmeFilename": "Readme.md",
+  "readmeFilename": "README.md",
   "_id": "mocha-html-reporter@0.0.1",
   "_from": "mocha-html-reporter@*"
 }
