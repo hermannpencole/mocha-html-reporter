@@ -4,6 +4,9 @@ mocha-html-reporter
 HTML reporter for Mocha.
 
 # Use
+
+Create html fragment with mocha-html-reporter and add head and tail.
+
 <pre>
 # npm install mocha-html-reporter
 
