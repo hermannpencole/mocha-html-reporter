@@ -11,6 +11,6 @@ Voyager - Mocha Reporter
 
 Create html fragment with mocha-html-reporter and add head and tail.
 
-	npm install voyager
+	npm install epoch-voyager
 
 	mocha path/to/test --reporter mocha-html-reporter | cat path/to/voyager/docs/head.html - path/to/voyager/docs/tail.html	> Report.html
