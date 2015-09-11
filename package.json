@@ -1,11 +1,8 @@
 {
-  "name": "mocha-html-reporter",
+  "name": "sajjad",
   "description": "HTML reporter for Mocha",
   "version": "0.0.1",
-  "author": {
-    "name": "Hermann pencolé",
-    "email": "hermann.pencole@gmail.com"
-  },
+  "author": "Sajjad Hossain <sajjad@adcade.com>",
   "keywords": [
     "mocha",
     "reporter",
@@ -17,7 +14,7 @@
     "mocha": "1.6.x"
   },
   "directories": {
-    "lib": "./lib"
+    "doc": "docs"
   },
   "main": "index.js",
   "engines": {
@@ -28,10 +25,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/HermannPencole/mocha-html-reporter.git"
+    "url": "git://github.com/adcade/voyager.git"
   },
-  "readme": "mocha-html-reporter\n===================\n",
-  "readmeFilename": "Readme.md",
-  "_id": "mocha-html-reporter@0.0.1",
-  "_from": "mocha-html-reporter@*"
+  "_from": "epoch-voyager@*",
+  "bugs": {
+    "url": "https://github.com/adcade/voyager/issues"
+  },
+  "homepage": "https://github.com/adcade/voyager#readme",
+  "license": "WTFPL"
 }
