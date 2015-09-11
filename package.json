@@ -1,7 +1,7 @@
 {
-  "name": "sajjad",
+  "name": "epoch-voyager",
   "description": "HTML reporter for Mocha",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Sajjad Hossain <sajjad@adcade.com>",
   "keywords": [
     "mocha",
