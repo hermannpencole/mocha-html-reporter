@@ -9,7 +9,20 @@
     "html"
   ],
   "licenses": "WTFPL",
-  "dependencies": {},
+  "dependencies": {
+    "chai": "1.6.1",
+    "chai-fs": "0.1.0",
+    "chai-http": "^1.0.0",
+    "chromedriver": "^2.18.0",
+    "dargs": "^4.0.1",
+    "deepmerge": "^0.2.10",
+    "gulp-util": "^3.0.6",
+    "gulp-webdriver": "^1.0.1",
+    "selenium-standalone": "4.5.3",
+    "shelljs": "0.5.2",
+    "through2": "^2.0.0",
+    "webdriverio": "^3.2.4"
+  },
   "devDependencies": {
     "mocha": "1.6.x"
   },
