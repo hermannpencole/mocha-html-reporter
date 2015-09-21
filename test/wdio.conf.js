@@ -1,4 +1,4 @@
-var Voyager = require('./lib/html');
+var Voyager = require('../index');
 
 exports.config = {
     
@@ -89,7 +89,7 @@ exports.config = {
     // Test reporter for stdout.
     // The following are supported: dot (default), spec and xunit
     // see also: http://webdriver.io/guide/testrunner/reporters.html
-    reporter: 'spec',
+    reporter: Voyager,
     reporterOptions: {
         outputDir: './'
     },
@@ -119,7 +119,7 @@ exports.config = {
     // Gets executed before test execution begins. At this point you will have access to all global
     // variables like `browser`. It is the perfect place to define custom commands.
     before: function() {
-        console.log('Launch')
+        console.log('Launch...')
     },
     //
     // Gets executed after all tests are done. You still have access to all global variables from
@@ -131,6 +131,6 @@ exports.config = {
     // Gets executed after all workers got shut down and the process is about to exit. It is not
     // possible to defer the end of the process using a promise.
     onComplete: function() {
-        console.log('Land')
+        console.log('Land.')
     }
 };

@@ -4,6 +4,7 @@
   "version": "0.0.2",
   "author": "Sajjad Hossain <sajjad@adcade.com>",
   "keywords": [
+    "webdriverio",
     "mocha",
     "reporter",
     "html"
@@ -18,10 +19,16 @@
     "deepmerge": "^0.2.10",
     "gulp-util": "^3.0.6",
     "gulp-webdriver": "^1.0.1",
+    "html-generate": "0.0.2",
+    "js-template": "^0.1.4",
+    "materialize-css": "^0.97.1",
+    "require-dir": "^0.3.0",
     "selenium-standalone": "4.5.3",
     "shelljs": "0.5.2",
     "through2": "^2.0.0",
-    "webdriverio": "^3.2.4"
+    "webdriverio": "^3.2.4",
+    "wintersmith": "^2.2.1",
+    "wintersmith-liquid": "0.0.2"
   },
   "devDependencies": {
     "mocha": "1.6.x"

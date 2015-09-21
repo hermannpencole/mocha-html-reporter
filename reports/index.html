@@ -1,0 +1,72 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Voyager | Mission Reports</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="../node_modules/materialize-css/images/favicon/apple-touch-icon-152x152.png">
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="./node_modules/materialize-css/dist/css/materialize.min.css"  media="screen,projection"/>
+    <!-- Place favicon.ico in the root directory -->
+</head>
+<body>
+<!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+<!-- Add your site or application content here -->
+<div id="voyage" class="container">
+    <div id="status" class="row">
+        <div id="mission-control-header" class="col s12 center-align">
+            <h1 id="mission-control-logo" class="z-depth-5" style="font-weight:800;font-style:italic;text-transform:uppercase">Voyager</h1>
+        </div>
+    </div>
+    <div id="mission-report" class="container">
+        <table id="mission-report-table" class="responsive-table">
+            <thead id="mission-report-table-header">
+                <tr>
+                    <th id="mission-report-table-mission">Mission</th>
+                    <th id="mission-report-table-status">Status</th>
+                    <th id="mission-report-table-console">Console</th>
+                    <th id="mission-report-table-time">Time</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Generates a pass</td>
+                    <td><span style="color:#BFEB50">&#10004;</span></td>
+                    <td><button data-target="modal52044" class="btn modal-trigger">Source</button></td>
+                    <td>1ms</td>
+                </tr>
+                <tr>
+                    <td>Generates a fail</td>
+                    <td><span style="color:#F51800">&#10008;</span></td>
+                    <td><button data-target="modal52044" class="btn modal-trigger">Source</button></td>
+                    <td>1ms</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<!-- Modal Structure -->
+<div id="modal52044" class="modal modal-fixed-footer">
+    <div class="modal-content">
+        <h4>Generates a fail</h4>
+        <p>{"event":"test:fail","pid":52044,"title":"Generates a fail","pending":false,"parent":"Voyager","type":"test","err":{"message":"This should result in error","stack":"AssertionError: This should result in error"},"duration":1,"runner":{"52044":{"browserName":"firefox"}}}</p>
+    </div>
+    <div class="modal-footer">
+        <a href="#" class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>
+    </div>
+</div>
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="./node_modules/materialize-css/dist/js/materialize.min.js"></script>
+<script src="./node_modules/materialize-css/js/init.js"></script>
+<script>
+    $(document).ready(function(){});
+</script>
+</body>
+</html>

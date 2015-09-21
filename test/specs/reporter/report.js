@@ -1,5 +1,11 @@
+var chai = require('chai');
+
 describe('Voyager', function() {
-    it('generates mission reports', function (done) {
+    it('Generates a pass', function (done) {
         done();
-    })
+    });
+    it('Generates a fail', function (done) {
+        chai.assert(1 === 3, 'This should result in error');
+        done();
+    });
 });
