@@ -91,15 +91,16 @@ exports.config = {
     // see also: http://webdriver.io/guide/testrunner/reporters.html
     reporter: Voyager,
     reporterOptions: {
-        outputDir: './'
+        outputDir: './',
+        ui: 'spec'
     },
 
     //
     // Options to be passed to Mocha.
     // See the full list at http://mochajs.org/
     mochaOpts: {
-        ui: 'bdd',
-        reporter: 'spec',
+        ui: 'spec',
+        reporter: 'base',
         timeout: 1000
     },
     
