@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Voyager | Mission Reports</title>
+    <title><%= date %> | Voyager Reports</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="../node_modules/materialize-css/images/favicon/apple-touch-icon-152x152.png">
@@ -22,24 +22,34 @@
 <![endif]-->
 <!-- Add your site or application content here -->
 <div class="navbar-fixed">
-    <nav class="#004d40 teal darken-3 z-depth-5">
+    <nav class="#004d40 teal darken-3 z-depth-3">
         <div class="container nav-wrapper ">
             <a href="#" class="brand-logo" style="font-weight:800;font-style:italic;text-transform:uppercase;color:#FFFFFF;font-size:3em">VOYAGER</a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="http://github.com/adcade/astronaut">GITHUB</a></li>
-            </ul>
         </div>
     </nav>
 </div>
 <div id="voyage" class="container">
+    <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+        <a class="btn-floating btn-large red">
+            <i class="large material-icons #ec407a pink lighten-1">settings</i>
+        </a>
+        <ul>
+            <li><a class="btn-floating green" href="<%= userEmail %>"><i class="material-icons">email</i></a></li>
+            <li><a class="btn-floating blue"><i class="material-icons">print</i></a></li>
+        </ul>
+    </div>
+    <!--<ul id="nav-mobile" class="right show-on-med-and-down">-->
+        <!--<li><a href="http://github.com/adcade/astronaut">GITHUB</a></li>-->
+        <!--<li><a href="http://github.com/adcade/astronaut">ARCHIVE</a></li>-->
+    <!--</ul>-->
     <div id="mission-control-header" class="col s12 center-align">
-        <h1 id="mission-control-logo" class="z-depth-3 #80cbc4 teal lighten-3" style="font-weight:800;font-style:italic;text-transform:uppercase;color:#FFFFFF;font-size:3em">Results</h1>
+        <h1 id="mission-control-logo" class="z-depth-1 #80cbc4 teal lighten-3" style="font-weight:800;font-style:italic;text-transform:uppercase;color:#FFFFFF;font-size:3em">Results</h1>
         <div id="viz" style="height:500px;width:100%;padding-top:25px;"></div>
     </div>
     <div class="section">
         <div id="status" class="row">
             <div id="mission-control-header" class="col s12 center-align">
-                <h1 id="mission-control-logo" class="z-depth-3 #009688 teal truncate" style="font-weight:800;font-style:italic;text-transform:uppercase;color:#FFFFFF;font-size:3em">Creates Cube</h1>
+                <h1 id="mission-control-logo" class="z-depth-1 #009688 teal truncate" style="font-weight:800;font-style:italic;text-transform:uppercase;color:#FFFFFF;font-size:3em">Creates Cube</h1>
             </div>
         </div>
         <div id="mission-report" class="container">
@@ -84,7 +94,7 @@
     <div class="section">
         <div id="status" class="row">
             <div id="mission-control-header" class="col s12 center-align">
-                <h1 id="mission-control-logo" class="z-depth-3 #009688 teal truncate" style="font-weight:800;font-style:italic;text-transform:uppercase;color:#FFFFFF;font-size:3em">Tests Cube</h1>
+                <h1 id="mission-control-logo" class="z-depth-1 #009688 teal truncate" style="font-weight:800;font-style:italic;text-transform:uppercase;color:#FFFFFF;font-size:3em">Tests Cube</h1>
             </div>
         </div>
         <div id="mission-report" class="container">
@@ -105,10 +115,10 @@
                     <td>1ms</td>
                 </tr>
                 <tr>
-                    <td>Pipes console log</td>
-                    <td><span style="color:#BFEB50">&#10004;</span></td>
+                    <td>Pipes a console error</td>
+                    <td><span style="color:#F51800">&#10008;</span></td>
                     <td><button data-target="modal91046" class="btn modal-trigger">Source</button></td>
-                    <td>6ms</td>
+                    <td>0ms</td>
                 </tr>
                 <tr>
                     <td>Generates a fail</td>
@@ -117,8 +127,8 @@
                     <td>1ms</td>
                 </tr>
                 <tr>
-                    <td>Pipes a console error</td>
-                    <td><span style="color:#F51800">&#10008;</span></td>
+                    <td>Pending</td>
+                    <td><span style="color:#42A5F5">N/A</span></td>
                     <td><button data-target="modal91046" class="btn modal-trigger">Source</button></td>
                     <td>0ms</td>
                 </tr>
@@ -158,8 +168,8 @@
     <div class="container">
         <div class="row">
             <div class="col l6 s12">
-                <h5 class="white-text">ASTRONAUT</h5>
-                <p class="grey-text text-lighten-4">Automate the journey of an Epoch user using mocha, chai, webdriverio and MOAR. Assertion, launch-pad and diagnostics to come.</p>
+                <h5 class="white-text">MISSION</h5>
+                <p class="grey-text text-lighten-4">To automate the journey of an <a href="https://www.adcade.com/">Epoch</a> user using <a href="https://mochajs.org">mocha</a>, <a href="http://chaijs.com/">chai</a>, <a href="http://webdriver.io/">webdriverio</a> and MOAR. LaunchPad coming soon!</p>
             </div>
             <div class="col l4 offset-l2 s12">
                 <h5 class="white-text">MORE</h5>
@@ -179,29 +189,35 @@
     </div>
 </footer>
 <!--Import jQuery before materialize.js-->
-<script>
-    var data = [
-        {"suite": "Create Cube", "name":"PASS", "tests": 27},
-        {"suite": "Create Cube", "name":"FAIL", "tests": 10},
-        {"suite": "Create Cube", "name":"PENDING", "tests": 5},
-        {"suite": "Test Cube", "name":"PASS", "tests": 20},
-        {"suite": "Test Cube", "name":"FAIL", "tests": 0},
-        {"suite": "Test Cube", "name":"PENDING", "tests": 5}
-    ]
-    var visualization = d3plus.viz()
-            .container("#viz")
-            .data(data)
-            .type("bar")
-            .id("name")
-            .x("suite")
-            .y("tests")
-            .draw()
-</script>
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script type="text/javascript" src="./node_modules/materialize-css/dist/js/materialize.min.js"></script>
 <script src="./node_modules/materialize-css/js/init.js"></script>
 <script>
     $(document).ready(function(){});
+</script>
+<script>
+    var data = 'data/data.json';
+    var visualization = d3plus.viz()
+            .container("#viz")
+            .data(data)
+            .type("bar")
+            .id("name")
+            .x("results")
+            .y("# of tests")
+            .color(function(d){
+                var pass = '#BFEB50',
+                        fail = '#F51800',
+                        pending = '#42A5F5';
+
+                if (d.name === "Pass") {
+                    return pass;
+                } if (d.name === 'Fail') {
+                    return fail;
+                } if (d.name === 'Pending') {
+                    return pending;
+                }
+            })
+            .draw()
 </script>
 </body>
 </html>

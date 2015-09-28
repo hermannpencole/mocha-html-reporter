@@ -26,7 +26,8 @@
     "selenium-standalone": "4.5.3",
     "shelljs": "0.5.2",
     "through2": "^2.0.0",
-    "webdriverio": "^3.2.4"
+    "webdriverio": "^3.2.4",
+    "writeson": "^1.0.1"
   },
   "devDependencies": {
     "mocha": "1.6.x"

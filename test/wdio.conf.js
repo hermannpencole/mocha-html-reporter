@@ -91,15 +91,13 @@ exports.config = {
     // see also: http://webdriver.io/guide/testrunner/reporters.html
     reporter: Voyager,
     reporterOptions: {
-        outputDir: './',
-        ui: 'spec'
+        outputDir: './'
     },
 
     //
     // Options to be passed to Mocha.
     // See the full list at http://mochajs.org/
     mochaOpts: {
-        ui: 'spec',
         reporter: 'base',
         timeout: 1000
     },
@@ -120,7 +118,7 @@ exports.config = {
     // Gets executed before test execution begins. At this point you will have access to all global
     // variables like `browser`. It is the perfect place to define custom commands.
     before: function() {
-        console.log('Launch...')
+        // do something
     },
     //
     // Gets executed after all tests are done. You still have access to all global variables from
@@ -132,6 +130,6 @@ exports.config = {
     // Gets executed after all workers got shut down and the process is about to exit. It is not
     // possible to defer the end of the process using a promise.
     onComplete: function() {
-        console.log('Land.')
+        // do something
     }
 };
