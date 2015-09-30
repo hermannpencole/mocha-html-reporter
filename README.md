@@ -39,8 +39,8 @@
 
 		http://127.0.0.1:7890
 		
-8. You should see a report similar to that below.
-
 ###Screenshot of the report generated
+
+You should see a report similar to the below:
 
 ![Voyager Example Report](./reports/images/voyager.png "Voyager Example Report")
