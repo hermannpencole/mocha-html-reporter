@@ -22,6 +22,7 @@
     "html-generate": "0.0.2",
     "js-template": "^0.1.4",
     "materialize-css": "^0.97.1",
+    "prompt": "^0.2.14",
     "require-dir": "^0.3.0",
     "selenium-standalone": "4.5.3",
     "shelljs": "0.5.2",

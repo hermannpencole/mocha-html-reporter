@@ -1,0 +1,106 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title><%= date %> | Voyager Reports</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="../../reports/node_modules/materialize-css/images/favicon/apple-touch-icon-152x152.png">
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="./node_modules/materialize-css/dist/css/materialize.min.css"  media="screen,projection"/>
+    <!-- Place favicon.ico in the root directory -->
+    <!-- load D3js -->
+    <script src="http://www.d3plus.org/js/d3.js"></script>
+    <!-- load D3plus after D3js -->
+    <script src="http://www.d3plus.org/js/d3plus.js"></script>
+<body>
+<!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+<!-- Add your site or application content here -->
+<div class="navbar-fixed">
+    <nav class="#004d40 teal darken-3 z-depth-3">
+        <div class="container nav-wrapper ">
+            <a href="#" class="brand-logo" style="font-weight:800;font-style:italic;text-transform:uppercase;color:#FFFFFF;font-size:3em">VOYAGER</a>
+        </div>
+    </nav>
+</div>
+<div id="voyage" class="container">
+    <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+        <a class="btn-floating btn-large red">
+            <i class="large material-icons #ec407a pink lighten-1">settings</i>
+        </a>
+        <ul>
+            <li><a class="btn-floating green" href="mailto:<%= email %>"><i class="material-icons">email</i></a></li>
+            <li><a class="btn-floating blue" onClick="window.print()"><i class="material-icons">print</i></a></li>
+        </ul>
+    </div>
+    <div id="mission-control-header" class="col s12 center-align">
+        <h1 id="mission-control-logo" class="z-depth-1 #80cbc4 teal lighten-3" style="font-weight:800;font-style:italic;text-transform:uppercase;color:#FFFFFF;font-size:3em">Results</h1>
+        <div id="viz" style="height:500px;width:100%;padding-top:25px;"></div>
+    </div>
+    <%= tests %>
+    <%= tester %>
+    <%= modals %>
+</div>
+<!-- Footer -->
+<footer class="page-footer #004d40 teal darken-3">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">MISSION</h5>
+                <p class="grey-text text-lighten-4">To automate the journey of an <a href="https://www.adcade.com/">Epoch</a> user using <a href="https://mochajs.org">mocha</a>, <a href="http://chaijs.com/">chai</a>, <a href="http://webdriver.io/">webdriverio</a> and MOAR. LaunchPad coming soon!</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">MORE</h5>
+                <ul>
+                    <li><a class="grey-text text-lighten-3" href="https://github.com/adcade/astronaut/wiki">WIKI</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://github.com/adcade/astronaut/issues">ISSUES</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://github.com/adcade/astronaut/releases">RELEASES</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright #00796b teal darken-1">
+        <div class="container">
+            © ADCADE
+            <a class="grey-text text-lighten-4 right" href="http://adcade.com">www.adcade.com</a>
+        </div>
+    </div>
+</footer>
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="./node_modules/materialize-css/dist/js/materialize.min.js"></script>
+<script src="./node_modules/materialize-css/js/init.js"></script>
+<script>
+    $(document).ready(function(){});
+</script>
+<script>
+    var data = 'data/data.json';
+    var visualization = d3plus.viz()
+            .container("#viz")
+            .data(data)
+            .type("bar")
+            .id("name")
+            .x("results")
+            .y("# of tests")
+            .color(function(d){
+                var pass = '#BFEB50',
+                        fail = '#F51800',
+                        pending = '#42A5F5';
+
+                if (d.name === "Pass") {
+                    return pass;
+                } if (d.name === 'Fail') {
+                    return fail;
+                } if (d.name === 'Pending') {
+                    return pending;
+                }
+            })
+            .draw()
+</script>
+</body>
+</html>
