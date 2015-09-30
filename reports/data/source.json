@@ -14,12 +14,16 @@
 					},
 					"children": [
 						{
+							"tagName": "h3",
+							"text": "Voyager"
+						},
+						{
 							"tagName": "h4",
 							"text": "Should skip me"
 						},
 						{
 							"tagName": "p",
-							"text": "{\"event\":\"test:pending\",\"pid\":12167,\"title\":\"Should skip me\",\"pending\":true,\"parent\":\"Voyager\",\"type\":\"test\",\"err\":null,\"runner\":{\"12167\":{\"browserName\":\"firefox\"}}}"
+							"text": "{\"event\":\"test:pending\",\"pid\":12506,\"title\":\"Should skip me\",\"pending\":true,\"parent\":\"Voyager\",\"type\":\"test\",\"err\":null,\"runner\":{\"12506\":{\"browserName\":\"firefox\"}}}"
 						}
 					]
 				},
@@ -55,12 +59,16 @@
 					},
 					"children": [
 						{
+							"tagName": "h3",
+							"text": "Voyager"
+						},
+						{
 							"tagName": "h4",
 							"text": "Should skip me too"
 						},
 						{
 							"tagName": "p",
-							"text": "{\"event\":\"test:pending\",\"pid\":12167,\"title\":\"Should skip me too\",\"pending\":true,\"parent\":\"Voyager\",\"type\":\"test\",\"err\":null,\"runner\":{\"12167\":{\"browserName\":\"firefox\"}}}"
+							"text": "{\"event\":\"test:pending\",\"pid\":12506,\"title\":\"Should skip me too\",\"pending\":true,\"parent\":\"Voyager\",\"type\":\"test\",\"err\":null,\"runner\":{\"12506\":{\"browserName\":\"firefox\"}}}"
 						}
 					]
 				},
@@ -96,12 +104,16 @@
 					},
 					"children": [
 						{
+							"tagName": "h3",
+							"text": "Voyager"
+						},
+						{
 							"tagName": "h4",
 							"text": "Generates a pass"
 						},
 						{
 							"tagName": "p",
-							"text": "{\"event\":\"test:pass\",\"pid\":12167,\"title\":\"Generates a pass\",\"pending\":false,\"parent\":\"Voyager\",\"type\":\"test\",\"err\":null,\"duration\":1,\"runner\":{\"12167\":{\"browserName\":\"firefox\"}}}"
+							"text": "{\"event\":\"test:pass\",\"pid\":12506,\"title\":\"Generates a pass\",\"pending\":false,\"parent\":\"Voyager\",\"type\":\"test\",\"err\":null,\"duration\":1,\"runner\":{\"12506\":{\"browserName\":\"firefox\"}}}"
 						}
 					]
 				},
@@ -137,12 +149,16 @@
 					},
 					"children": [
 						{
+							"tagName": "h3",
+							"text": "Voyager"
+						},
+						{
 							"tagName": "h4",
 							"text": "Generates another pass"
 						},
 						{
 							"tagName": "p",
-							"text": "{\"event\":\"test:pass\",\"pid\":12167,\"title\":\"Generates another pass\",\"pending\":false,\"parent\":\"Voyager\",\"type\":\"test\",\"err\":null,\"duration\":0,\"runner\":{\"12167\":{\"browserName\":\"firefox\"}}}"
+							"text": "{\"event\":\"test:pass\",\"pid\":12506,\"title\":\"Generates another pass\",\"pending\":false,\"parent\":\"Voyager\",\"type\":\"test\",\"err\":null,\"duration\":1,\"runner\":{\"12506\":{\"browserName\":\"firefox\"}}}"
 						}
 					]
 				},
@@ -178,12 +194,16 @@
 					},
 					"children": [
 						{
+							"tagName": "h3",
+							"text": "Voyager"
+						},
+						{
 							"tagName": "h4",
 							"text": "Generates anotherer pass"
 						},
 						{
 							"tagName": "p",
-							"text": "{\"event\":\"test:pass\",\"pid\":12167,\"title\":\"Generates anotherer pass\",\"pending\":false,\"parent\":\"Voyager\",\"type\":\"test\",\"err\":null,\"duration\":0,\"runner\":{\"12167\":{\"browserName\":\"firefox\"}}}"
+							"text": "{\"event\":\"test:pass\",\"pid\":12506,\"title\":\"Generates anotherer pass\",\"pending\":false,\"parent\":\"Voyager\",\"type\":\"test\",\"err\":null,\"duration\":0,\"runner\":{\"12506\":{\"browserName\":\"firefox\"}}}"
 						}
 					]
 				},
@@ -219,12 +239,16 @@
 					},
 					"children": [
 						{
+							"tagName": "h3",
+							"text": "Voyager"
+						},
+						{
 							"tagName": "h4",
 							"text": "Generates anothererer pass"
 						},
 						{
 							"tagName": "p",
-							"text": "{\"event\":\"test:pass\",\"pid\":12167,\"title\":\"Generates anothererer pass\",\"pending\":false,\"parent\":\"Voyager\",\"type\":\"test\",\"err\":null,\"duration\":0,\"runner\":{\"12167\":{\"browserName\":\"firefox\"}}}"
+							"text": "{\"event\":\"test:pass\",\"pid\":12506,\"title\":\"Generates anothererer pass\",\"pending\":false,\"parent\":\"Voyager\",\"type\":\"test\",\"err\":null,\"duration\":0,\"runner\":{\"12506\":{\"browserName\":\"firefox\"}}}"
 						}
 					]
 				},
@@ -260,12 +284,16 @@
 					},
 					"children": [
 						{
+							"tagName": "h3",
+							"text": "Voyager"
+						},
+						{
 							"tagName": "h4",
 							"text": "Generates a fail"
 						},
 						{
 							"tagName": "p",
-							"text": "{\"event\":\"test:fail\",\"pid\":12167,\"title\":\"Generates a fail\",\"pending\":false,\"parent\":\"Voyager\",\"type\":\"test\",\"err\":{\"message\":\"This should result in error\",\"stack\":\"AssertionError: This should result in error\"},\"duration\":1,\"runner\":{\"12167\":{\"browserName\":\"firefox\"}}}"
+							"text": "{\"event\":\"test:fail\",\"pid\":12506,\"title\":\"Generates a fail\",\"pending\":false,\"parent\":\"Voyager\",\"type\":\"test\",\"err\":{\"message\":\"This should result in error\",\"stack\":\"AssertionError: This should result in error\"},\"duration\":1,\"runner\":{\"12506\":{\"browserName\":\"firefox\"}}}"
 						}
 					]
 				},
@@ -301,12 +329,16 @@
 					},
 					"children": [
 						{
+							"tagName": "h3",
+							"text": "Voyager"
+						},
+						{
 							"tagName": "h4",
 							"text": "Generates another fail"
 						},
 						{
 							"tagName": "p",
-							"text": "{\"event\":\"test:fail\",\"pid\":12167,\"title\":\"Generates another fail\",\"pending\":false,\"parent\":\"Voyager\",\"type\":\"test\",\"err\":{\"message\":\"This should result in error\",\"stack\":\"AssertionError: This should result in error\"},\"duration\":0,\"runner\":{\"12167\":{\"browserName\":\"firefox\"}}}"
+							"text": "{\"event\":\"test:fail\",\"pid\":12506,\"title\":\"Generates another fail\",\"pending\":false,\"parent\":\"Voyager\",\"type\":\"test\",\"err\":{\"message\":\"This should result in error\",\"stack\":\"AssertionError: This should result in error\"},\"duration\":0,\"runner\":{\"12506\":{\"browserName\":\"firefox\"}}}"
 						}
 					]
 				},
@@ -344,12 +376,16 @@
 					},
 					"children": [
 						{
+							"tagName": "h3",
+							"text": "Astronaut"
+						},
+						{
 							"tagName": "h4",
 							"text": "Should skip me"
 						},
 						{
 							"tagName": "p",
-							"text": "{\"event\":\"test:pending\",\"pid\":12167,\"title\":\"Should skip me\",\"pending\":true,\"parent\":\"Astronaut\",\"type\":\"test\",\"err\":null,\"runner\":{\"12167\":{\"browserName\":\"firefox\"}}}"
+							"text": "{\"event\":\"test:pending\",\"pid\":12506,\"title\":\"Should skip me\",\"pending\":true,\"parent\":\"Astronaut\",\"type\":\"test\",\"err\":null,\"runner\":{\"12506\":{\"browserName\":\"firefox\"}}}"
 						}
 					]
 				},
@@ -385,12 +421,16 @@
 					},
 					"children": [
 						{
+							"tagName": "h3",
+							"text": "Astronaut"
+						},
+						{
 							"tagName": "h4",
 							"text": "Should skip me too"
 						},
 						{
 							"tagName": "p",
-							"text": "{\"event\":\"test:pending\",\"pid\":12167,\"title\":\"Should skip me too\",\"pending\":true,\"parent\":\"Astronaut\",\"type\":\"test\",\"err\":null,\"runner\":{\"12167\":{\"browserName\":\"firefox\"}}}"
+							"text": "{\"event\":\"test:pending\",\"pid\":12506,\"title\":\"Should skip me too\",\"pending\":true,\"parent\":\"Astronaut\",\"type\":\"test\",\"err\":null,\"runner\":{\"12506\":{\"browserName\":\"firefox\"}}}"
 						}
 					]
 				},
@@ -426,12 +466,16 @@
 					},
 					"children": [
 						{
+							"tagName": "h3",
+							"text": "Astronaut"
+						},
+						{
 							"tagName": "h4",
 							"text": "Generates a pass"
 						},
 						{
 							"tagName": "p",
-							"text": "{\"event\":\"test:pass\",\"pid\":12167,\"title\":\"Generates a pass\",\"pending\":false,\"parent\":\"Astronaut\",\"type\":\"test\",\"err\":null,\"duration\":0,\"runner\":{\"12167\":{\"browserName\":\"firefox\"}}}"
+							"text": "{\"event\":\"test:pass\",\"pid\":12506,\"title\":\"Generates a pass\",\"pending\":false,\"parent\":\"Astronaut\",\"type\":\"test\",\"err\":null,\"duration\":0,\"runner\":{\"12506\":{\"browserName\":\"firefox\"}}}"
 						}
 					]
 				},
@@ -467,12 +511,16 @@
 					},
 					"children": [
 						{
+							"tagName": "h3",
+							"text": "Astronaut"
+						},
+						{
 							"tagName": "h4",
 							"text": "Generates another pass"
 						},
 						{
 							"tagName": "p",
-							"text": "{\"event\":\"test:pass\",\"pid\":12167,\"title\":\"Generates another pass\",\"pending\":false,\"parent\":\"Astronaut\",\"type\":\"test\",\"err\":null,\"duration\":0,\"runner\":{\"12167\":{\"browserName\":\"firefox\"}}}"
+							"text": "{\"event\":\"test:pass\",\"pid\":12506,\"title\":\"Generates another pass\",\"pending\":false,\"parent\":\"Astronaut\",\"type\":\"test\",\"err\":null,\"duration\":0,\"runner\":{\"12506\":{\"browserName\":\"firefox\"}}}"
 						}
 					]
 				},
@@ -508,12 +556,16 @@
 					},
 					"children": [
 						{
+							"tagName": "h3",
+							"text": "Astronaut"
+						},
+						{
 							"tagName": "h4",
 							"text": "Generates anotherer pass"
 						},
 						{
 							"tagName": "p",
-							"text": "{\"event\":\"test:pass\",\"pid\":12167,\"title\":\"Generates anotherer pass\",\"pending\":false,\"parent\":\"Astronaut\",\"type\":\"test\",\"err\":null,\"duration\":0,\"runner\":{\"12167\":{\"browserName\":\"firefox\"}}}"
+							"text": "{\"event\":\"test:pass\",\"pid\":12506,\"title\":\"Generates anotherer pass\",\"pending\":false,\"parent\":\"Astronaut\",\"type\":\"test\",\"err\":null,\"duration\":0,\"runner\":{\"12506\":{\"browserName\":\"firefox\"}}}"
 						}
 					]
 				},
@@ -549,12 +601,16 @@
 					},
 					"children": [
 						{
+							"tagName": "h3",
+							"text": "Astronaut"
+						},
+						{
 							"tagName": "h4",
 							"text": "Generates anothererer pass"
 						},
 						{
 							"tagName": "p",
-							"text": "{\"event\":\"test:pass\",\"pid\":12167,\"title\":\"Generates anothererer pass\",\"pending\":false,\"parent\":\"Astronaut\",\"type\":\"test\",\"err\":null,\"duration\":0,\"runner\":{\"12167\":{\"browserName\":\"firefox\"}}}"
+							"text": "{\"event\":\"test:pass\",\"pid\":12506,\"title\":\"Generates anothererer pass\",\"pending\":false,\"parent\":\"Astronaut\",\"type\":\"test\",\"err\":null,\"duration\":0,\"runner\":{\"12506\":{\"browserName\":\"firefox\"}}}"
 						}
 					]
 				},
@@ -590,12 +646,16 @@
 					},
 					"children": [
 						{
+							"tagName": "h3",
+							"text": "Astronaut"
+						},
+						{
 							"tagName": "h4",
 							"text": "Generates a fail"
 						},
 						{
 							"tagName": "p",
-							"text": "{\"event\":\"test:fail\",\"pid\":12167,\"title\":\"Generates a fail\",\"pending\":false,\"parent\":\"Astronaut\",\"type\":\"test\",\"err\":{\"message\":\"This should result in error\",\"stack\":\"AssertionError: This should result in error\"},\"duration\":0,\"runner\":{\"12167\":{\"browserName\":\"firefox\"}}}"
+							"text": "{\"event\":\"test:fail\",\"pid\":12506,\"title\":\"Generates a fail\",\"pending\":false,\"parent\":\"Astronaut\",\"type\":\"test\",\"err\":{\"message\":\"This should result in error\",\"stack\":\"AssertionError: This should result in error\"},\"duration\":0,\"runner\":{\"12506\":{\"browserName\":\"firefox\"}}}"
 						}
 					]
 				},
@@ -631,12 +691,16 @@
 					},
 					"children": [
 						{
+							"tagName": "h3",
+							"text": "Astronaut"
+						},
+						{
 							"tagName": "h4",
 							"text": "Generates another fail"
 						},
 						{
 							"tagName": "p",
-							"text": "{\"event\":\"test:fail\",\"pid\":12167,\"title\":\"Generates another fail\",\"pending\":false,\"parent\":\"Astronaut\",\"type\":\"test\",\"err\":{\"message\":\"This should result in error\",\"stack\":\"AssertionError: This should result in error\"},\"duration\":0,\"runner\":{\"12167\":{\"browserName\":\"firefox\"}}}"
+							"text": "{\"event\":\"test:fail\",\"pid\":12506,\"title\":\"Generates another fail\",\"pending\":false,\"parent\":\"Astronaut\",\"type\":\"test\",\"err\":{\"message\":\"This should result in error\",\"stack\":\"AssertionError: This should result in error\"},\"duration\":0,\"runner\":{\"12506\":{\"browserName\":\"firefox\"}}}"
 						}
 					]
 				},
@@ -674,12 +738,16 @@
 					},
 					"children": [
 						{
+							"tagName": "h3",
+							"text": "LaunchPad"
+						},
+						{
 							"tagName": "h4",
 							"text": "Should skip me"
 						},
 						{
 							"tagName": "p",
-							"text": "{\"event\":\"test:pending\",\"pid\":12167,\"title\":\"Should skip me\",\"pending\":true,\"parent\":\"LaunchPad\",\"type\":\"test\",\"err\":null,\"runner\":{\"12167\":{\"browserName\":\"firefox\"}}}"
+							"text": "{\"event\":\"test:pending\",\"pid\":12506,\"title\":\"Should skip me\",\"pending\":true,\"parent\":\"LaunchPad\",\"type\":\"test\",\"err\":null,\"runner\":{\"12506\":{\"browserName\":\"firefox\"}}}"
 						}
 					]
 				},
@@ -715,12 +783,16 @@
 					},
 					"children": [
 						{
+							"tagName": "h3",
+							"text": "LaunchPad"
+						},
+						{
 							"tagName": "h4",
 							"text": "Should skip me too"
 						},
 						{
 							"tagName": "p",
-							"text": "{\"event\":\"test:pending\",\"pid\":12167,\"title\":\"Should skip me too\",\"pending\":true,\"parent\":\"LaunchPad\",\"type\":\"test\",\"err\":null,\"runner\":{\"12167\":{\"browserName\":\"firefox\"}}}"
+							"text": "{\"event\":\"test:pending\",\"pid\":12506,\"title\":\"Should skip me too\",\"pending\":true,\"parent\":\"LaunchPad\",\"type\":\"test\",\"err\":null,\"runner\":{\"12506\":{\"browserName\":\"firefox\"}}}"
 						}
 					]
 				},
@@ -756,12 +828,16 @@
 					},
 					"children": [
 						{
+							"tagName": "h3",
+							"text": "LaunchPad"
+						},
+						{
 							"tagName": "h4",
 							"text": "Generates a pass"
 						},
 						{
 							"tagName": "p",
-							"text": "{\"event\":\"test:pass\",\"pid\":12167,\"title\":\"Generates a pass\",\"pending\":false,\"parent\":\"LaunchPad\",\"type\":\"test\",\"err\":null,\"duration\":0,\"runner\":{\"12167\":{\"browserName\":\"firefox\"}}}"
+							"text": "{\"event\":\"test:pass\",\"pid\":12506,\"title\":\"Generates a pass\",\"pending\":false,\"parent\":\"LaunchPad\",\"type\":\"test\",\"err\":null,\"duration\":0,\"runner\":{\"12506\":{\"browserName\":\"firefox\"}}}"
 						}
 					]
 				},
@@ -797,12 +873,16 @@
 					},
 					"children": [
 						{
+							"tagName": "h3",
+							"text": "LaunchPad"
+						},
+						{
 							"tagName": "h4",
 							"text": "Generates another pass"
 						},
 						{
 							"tagName": "p",
-							"text": "{\"event\":\"test:pass\",\"pid\":12167,\"title\":\"Generates another pass\",\"pending\":false,\"parent\":\"LaunchPad\",\"type\":\"test\",\"err\":null,\"duration\":0,\"runner\":{\"12167\":{\"browserName\":\"firefox\"}}}"
+							"text": "{\"event\":\"test:pass\",\"pid\":12506,\"title\":\"Generates another pass\",\"pending\":false,\"parent\":\"LaunchPad\",\"type\":\"test\",\"err\":null,\"duration\":0,\"runner\":{\"12506\":{\"browserName\":\"firefox\"}}}"
 						}
 					]
 				},
@@ -838,12 +918,16 @@
 					},
 					"children": [
 						{
+							"tagName": "h3",
+							"text": "LaunchPad"
+						},
+						{
 							"tagName": "h4",
 							"text": "Generates anotherer pass"
 						},
 						{
 							"tagName": "p",
-							"text": "{\"event\":\"test:pass\",\"pid\":12167,\"title\":\"Generates anotherer pass\",\"pending\":false,\"parent\":\"LaunchPad\",\"type\":\"test\",\"err\":null,\"duration\":0,\"runner\":{\"12167\":{\"browserName\":\"firefox\"}}}"
+							"text": "{\"event\":\"test:pass\",\"pid\":12506,\"title\":\"Generates anotherer pass\",\"pending\":false,\"parent\":\"LaunchPad\",\"type\":\"test\",\"err\":null,\"duration\":0,\"runner\":{\"12506\":{\"browserName\":\"firefox\"}}}"
 						}
 					]
 				},
@@ -879,12 +963,16 @@
 					},
 					"children": [
 						{
+							"tagName": "h3",
+							"text": "LaunchPad"
+						},
+						{
 							"tagName": "h4",
 							"text": "Generates anothererer pass"
 						},
 						{
 							"tagName": "p",
-							"text": "{\"event\":\"test:pass\",\"pid\":12167,\"title\":\"Generates anothererer pass\",\"pending\":false,\"parent\":\"LaunchPad\",\"type\":\"test\",\"err\":null,\"duration\":0,\"runner\":{\"12167\":{\"browserName\":\"firefox\"}}}"
+							"text": "{\"event\":\"test:pass\",\"pid\":12506,\"title\":\"Generates anothererer pass\",\"pending\":false,\"parent\":\"LaunchPad\",\"type\":\"test\",\"err\":null,\"duration\":0,\"runner\":{\"12506\":{\"browserName\":\"firefox\"}}}"
 						}
 					]
 				},
@@ -920,12 +1008,16 @@
 					},
 					"children": [
 						{
+							"tagName": "h3",
+							"text": "LaunchPad"
+						},
+						{
 							"tagName": "h4",
 							"text": "Generates a fail"
 						},
 						{
 							"tagName": "p",
-							"text": "{\"event\":\"test:fail\",\"pid\":12167,\"title\":\"Generates a fail\",\"pending\":false,\"parent\":\"LaunchPad\",\"type\":\"test\",\"err\":{\"message\":\"This should result in error\",\"stack\":\"AssertionError: This should result in error\"},\"duration\":0,\"runner\":{\"12167\":{\"browserName\":\"firefox\"}}}"
+							"text": "{\"event\":\"test:fail\",\"pid\":12506,\"title\":\"Generates a fail\",\"pending\":false,\"parent\":\"LaunchPad\",\"type\":\"test\",\"err\":{\"message\":\"This should result in error\",\"stack\":\"AssertionError: This should result in error\"},\"duration\":0,\"runner\":{\"12506\":{\"browserName\":\"firefox\"}}}"
 						}
 					]
 				},
@@ -961,12 +1053,16 @@
 					},
 					"children": [
 						{
+							"tagName": "h3",
+							"text": "LaunchPad"
+						},
+						{
 							"tagName": "h4",
 							"text": "Generates another fail"
 						},
 						{
 							"tagName": "p",
-							"text": "{\"event\":\"test:fail\",\"pid\":12167,\"title\":\"Generates another fail\",\"pending\":false,\"parent\":\"LaunchPad\",\"type\":\"test\",\"err\":{\"message\":\"This should result in error\",\"stack\":\"AssertionError: This should result in error\"},\"duration\":0,\"runner\":{\"12167\":{\"browserName\":\"firefox\"}}}"
+							"text": "{\"event\":\"test:fail\",\"pid\":12506,\"title\":\"Generates another fail\",\"pending\":false,\"parent\":\"LaunchPad\",\"type\":\"test\",\"err\":{\"message\":\"This should result in error\",\"stack\":\"AssertionError: This should result in error\"},\"duration\":0,\"runner\":{\"12506\":{\"browserName\":\"firefox\"}}}"
 						}
 					]
 				},
@@ -1004,12 +1100,16 @@
 					},
 					"children": [
 						{
+							"tagName": "h3",
+							"text": "Epoch"
+						},
+						{
 							"tagName": "h4",
 							"text": "Should skip me"
 						},
 						{
 							"tagName": "p",
-							"text": "{\"event\":\"test:pending\",\"pid\":12167,\"title\":\"Should skip me\",\"pending\":true,\"parent\":\"Epoch\",\"type\":\"test\",\"err\":null,\"runner\":{\"12167\":{\"browserName\":\"firefox\"}}}"
+							"text": "{\"event\":\"test:pending\",\"pid\":12506,\"title\":\"Should skip me\",\"pending\":true,\"parent\":\"Epoch\",\"type\":\"test\",\"err\":null,\"runner\":{\"12506\":{\"browserName\":\"firefox\"}}}"
 						}
 					]
 				},
@@ -1045,12 +1145,16 @@
 					},
 					"children": [
 						{
+							"tagName": "h3",
+							"text": "Epoch"
+						},
+						{
 							"tagName": "h4",
 							"text": "Should skip me too"
 						},
 						{
 							"tagName": "p",
-							"text": "{\"event\":\"test:pending\",\"pid\":12167,\"title\":\"Should skip me too\",\"pending\":true,\"parent\":\"Epoch\",\"type\":\"test\",\"err\":null,\"runner\":{\"12167\":{\"browserName\":\"firefox\"}}}"
+							"text": "{\"event\":\"test:pending\",\"pid\":12506,\"title\":\"Should skip me too\",\"pending\":true,\"parent\":\"Epoch\",\"type\":\"test\",\"err\":null,\"runner\":{\"12506\":{\"browserName\":\"firefox\"}}}"
 						}
 					]
 				},
@@ -1086,12 +1190,16 @@
 					},
 					"children": [
 						{
+							"tagName": "h3",
+							"text": "Epoch"
+						},
+						{
 							"tagName": "h4",
 							"text": "Generates a pass"
 						},
 						{
 							"tagName": "p",
-							"text": "{\"event\":\"test:pass\",\"pid\":12167,\"title\":\"Generates a pass\",\"pending\":false,\"parent\":\"Epoch\",\"type\":\"test\",\"err\":null,\"duration\":0,\"runner\":{\"12167\":{\"browserName\":\"firefox\"}}}"
+							"text": "{\"event\":\"test:pass\",\"pid\":12506,\"title\":\"Generates a pass\",\"pending\":false,\"parent\":\"Epoch\",\"type\":\"test\",\"err\":null,\"duration\":0,\"runner\":{\"12506\":{\"browserName\":\"firefox\"}}}"
 						}
 					]
 				},
@@ -1127,12 +1235,16 @@
 					},
 					"children": [
 						{
+							"tagName": "h3",
+							"text": "Epoch"
+						},
+						{
 							"tagName": "h4",
 							"text": "Generates another pass"
 						},
 						{
 							"tagName": "p",
-							"text": "{\"event\":\"test:pass\",\"pid\":12167,\"title\":\"Generates another pass\",\"pending\":false,\"parent\":\"Epoch\",\"type\":\"test\",\"err\":null,\"duration\":0,\"runner\":{\"12167\":{\"browserName\":\"firefox\"}}}"
+							"text": "{\"event\":\"test:pass\",\"pid\":12506,\"title\":\"Generates another pass\",\"pending\":false,\"parent\":\"Epoch\",\"type\":\"test\",\"err\":null,\"duration\":0,\"runner\":{\"12506\":{\"browserName\":\"firefox\"}}}"
 						}
 					]
 				},
@@ -1168,12 +1280,16 @@
 					},
 					"children": [
 						{
+							"tagName": "h3",
+							"text": "Epoch"
+						},
+						{
 							"tagName": "h4",
 							"text": "Generates anotherer pass"
 						},
 						{
 							"tagName": "p",
-							"text": "{\"event\":\"test:pass\",\"pid\":12167,\"title\":\"Generates anotherer pass\",\"pending\":false,\"parent\":\"Epoch\",\"type\":\"test\",\"err\":null,\"duration\":0,\"runner\":{\"12167\":{\"browserName\":\"firefox\"}}}"
+							"text": "{\"event\":\"test:pass\",\"pid\":12506,\"title\":\"Generates anotherer pass\",\"pending\":false,\"parent\":\"Epoch\",\"type\":\"test\",\"err\":null,\"duration\":0,\"runner\":{\"12506\":{\"browserName\":\"firefox\"}}}"
 						}
 					]
 				},
@@ -1209,12 +1325,16 @@
 					},
 					"children": [
 						{
+							"tagName": "h3",
+							"text": "Epoch"
+						},
+						{
 							"tagName": "h4",
 							"text": "Generates anothererer pass"
 						},
 						{
 							"tagName": "p",
-							"text": "{\"event\":\"test:pass\",\"pid\":12167,\"title\":\"Generates anothererer pass\",\"pending\":false,\"parent\":\"Epoch\",\"type\":\"test\",\"err\":null,\"duration\":0,\"runner\":{\"12167\":{\"browserName\":\"firefox\"}}}"
+							"text": "{\"event\":\"test:pass\",\"pid\":12506,\"title\":\"Generates anothererer pass\",\"pending\":false,\"parent\":\"Epoch\",\"type\":\"test\",\"err\":null,\"duration\":0,\"runner\":{\"12506\":{\"browserName\":\"firefox\"}}}"
 						}
 					]
 				},
@@ -1250,12 +1370,16 @@
 					},
 					"children": [
 						{
+							"tagName": "h3",
+							"text": "Epoch"
+						},
+						{
 							"tagName": "h4",
 							"text": "Generates a fail"
 						},
 						{
 							"tagName": "p",
-							"text": "{\"event\":\"test:fail\",\"pid\":12167,\"title\":\"Generates a fail\",\"pending\":false,\"parent\":\"Epoch\",\"type\":\"test\",\"err\":{\"message\":\"This should result in error\",\"stack\":\"AssertionError: This should result in error\"},\"duration\":0,\"runner\":{\"12167\":{\"browserName\":\"firefox\"}}}"
+							"text": "{\"event\":\"test:fail\",\"pid\":12506,\"title\":\"Generates a fail\",\"pending\":false,\"parent\":\"Epoch\",\"type\":\"test\",\"err\":{\"message\":\"This should result in error\",\"stack\":\"AssertionError: This should result in error\"},\"duration\":0,\"runner\":{\"12506\":{\"browserName\":\"firefox\"}}}"
 						}
 					]
 				},
@@ -1291,12 +1415,16 @@
 					},
 					"children": [
 						{
+							"tagName": "h3",
+							"text": "Epoch"
+						},
+						{
 							"tagName": "h4",
 							"text": "Generates another fail"
 						},
 						{
 							"tagName": "p",
-							"text": "{\"event\":\"test:fail\",\"pid\":12167,\"title\":\"Generates another fail\",\"pending\":false,\"parent\":\"Epoch\",\"type\":\"test\",\"err\":{\"message\":\"This should result in error\",\"stack\":\"AssertionError: This should result in error\"},\"duration\":0,\"runner\":{\"12167\":{\"browserName\":\"firefox\"}}}"
+							"text": "{\"event\":\"test:fail\",\"pid\":12506,\"title\":\"Generates another fail\",\"pending\":false,\"parent\":\"Epoch\",\"type\":\"test\",\"err\":{\"message\":\"This should result in error\",\"stack\":\"AssertionError: This should result in error\"},\"duration\":0,\"runner\":{\"12506\":{\"browserName\":\"firefox\"}}}"
 						}
 					]
 				},

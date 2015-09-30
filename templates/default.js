@@ -1,4 +1,4 @@
-var main = require('../index'),
+var main = require('../main'),
     fs = require('fs'),
     HTML = require('html-generate'),
     jsTemplate = require('js-template');
@@ -61,8 +61,6 @@ function templatize() {
     }, 1000);
     //console.log(makeTester);
 }
-
-templatize();
 
 module.exports = {
     templatize: templatize

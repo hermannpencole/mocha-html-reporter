@@ -18,7 +18,7 @@ gulp.task('user', function(done) {
         done();
     });
 });
-// Install wdio requirements
+// Generate results
 gulp.task('results', function(done) {
     var defaultIndex = require('../templates/default.js');
     defaultIndex.templatize(function (err) {
@@ -36,5 +36,5 @@ gulp.task('test', function() {
 });
 // Create a node-static server instance to serve the './reports' folder
 gulp.task('serve', function() {
-    shell.exec('cd && php -S 127.0.0.1:7890');
+    shell.exec('cd ./reports && php -S 127.0.0.1:7890');
 });

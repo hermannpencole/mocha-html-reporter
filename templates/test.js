@@ -1,4 +1,4 @@
-var main = require('../index'),
+var main = require('../main'),
     fs = require('fs'),
     HTML = require('html-generate');
 
@@ -10,7 +10,7 @@ fs.truncate(tables, 0, function (err) {
     if (err) return console.error(err);
 });
 
-var createTestDataHTML = function createTestDataHTML() {
+function createTestDataHTML() {
     for(var key in testTableData) {
         var suites = {
             tagName: 'div',
@@ -95,7 +95,7 @@ var createTestDataHTML = function createTestDataHTML() {
             if (err) return console.error(err);
         });
     }
-};
+}
 
 module.exports = {
     createTestDataHTML: createTestDataHTML

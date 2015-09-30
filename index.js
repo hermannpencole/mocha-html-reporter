@@ -6,7 +6,7 @@ var util = require('util'),
 
 var path = __dirname;
 
-    function camelize (str) {
+function camelize (str) {
     return str.replace(/(?:^\w|[A-Z]|\b\w)/g, function(letter, index) {
         return index == 0 ? letter.toLowerCase() : letter.toUpperCase();
     }).replace(/\s+/g, '');
@@ -67,6 +67,10 @@ function makeSourceData (suite) {
                     class: 'modal-content'
                 },
                 children: [
+                    {
+                        tagName: 'h3',
+                        text: suite.parent
+                    },
                     {
                         tagName: 'h4',
                         text: suite.title
@@ -175,9 +179,9 @@ var CustomReporter = function() {
                 "# of tests": result[key].pending
             });
         }
-        writeson.sync("reports/data/data.json", final, "\t");
-        writeson.sync("reports/data/tests.json", testTable, "\t");
-        writeson.sync("reports/data/source.json", modal, "\t");
+        writeson.sync(path + '/reports/data/data.json', final, "\t");
+        writeson.sync(path + '/reports/data/tests.json', testTable, "\t");
+        writeson.sync(path + '/reports/data/source.json', modal, "\t");
     });
 };
 
@@ -189,7 +193,4 @@ util.inherits(CustomReporter, events.EventEmitter);
 /**
  * Expose Custom Reporter
  */
-module.exports = {
-    CustomReporter: CustomReporter,
-    path: path
-};
+module.exports = exports = CustomReporter;

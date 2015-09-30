@@ -1,4 +1,4 @@
-var main = require('../index'),
+var main = require('../main'),
     fs = require('fs'),
     HTML = require('html-generate');
 
