@@ -37,7 +37,7 @@
 		
 7. After all this, you can head to:
 
-		http://127.0.0.1:7890/results
+		http://127.0.0.1:7890
 		
 8. You should see a report similar to that below.
 
