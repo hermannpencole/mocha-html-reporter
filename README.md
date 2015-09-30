@@ -1,4 +1,6 @@
 #Voyager
+A WebDriverIO HTML report generator. 
+
 ##Spec Reporter
 ###Get this example running
 1. Clone this repo
