@@ -12,7 +12,7 @@ gulp.task('init', function () {
 });
 // Make user
 gulp.task('user', function(done) {
-    var astronaut = require('init.js');
+    var astronaut = require('./init.js');
     astronaut.init(function (err) {
         if (err) console.error(err);
         done();

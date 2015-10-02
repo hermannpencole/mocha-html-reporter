@@ -17,9 +17,11 @@ A WebDriverIO HTML report generator.
 		
 		npm install -g webdriverio
 		
-3. Then initialize the project:
+3. Then initialize the project and user:
 
 		gulp init
+		
+		gulp user
 		
 4. Start selenium:
 
