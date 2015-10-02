@@ -38,3 +38,10 @@ node_modules
 out
 gen
 
+### Generated
+reports/data/data.json
+reports/data/source.json
+reports/data/tests.json
+reports/index.html
+reports/views/source.html
+reports/views/tests.html
