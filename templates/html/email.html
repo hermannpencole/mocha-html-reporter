@@ -1,0 +1,54 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title><%= date %> | Voyager Reports</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
+    <!-- Place favicon.ico in the root directory -->
+    <!-- load D3js -->
+    <script src="http://www.d3plus.org/js/d3.js"></script>
+    <!-- load D3plus after D3js -->
+    <script src="http://www.d3plus.org/js/d3plus.js"></script>
+<body>
+<!-- Add your site or application content here -->
+<%= tables %>
+<!-- Footer -->
+<footer class="page-footer #004d40 teal darken-3">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">MISSION</h5>
+                <p class="grey-text text-lighten-4">To automate the journey of an <a href="https://www.adcade.com/">Epoch</a> user using <a href="https://mochajs.org">mocha</a>, <a href="http://chaijs.com/">chai</a>, <a href="http://webdriver.io/">webdriverio</a> and MOAR. LaunchPad coming soon!</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">MORE</h5>
+                <ul>
+                    <li><a class="grey-text text-lighten-3" href="https://github.com/adcade/astronaut/wiki">WIKI</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://github.com/adcade/astronaut/issues">ISSUES</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://github.com/adcade/astronaut/releases">RELEASES</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright #00796b teal darken-1">
+        <div class="container">
+            © ADCADE
+            <a class="grey-text text-lighten-4 right" href="http://adcade.com">www.adcade.com</a>
+        </div>
+    </div>
+</footer>
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/init.js"></script>
+<script>
+    $(document).ready(function(){});
+</script>
+</body>
+</html>
