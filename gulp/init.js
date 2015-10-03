@@ -1,8 +1,9 @@
-var prompt = require('prompt'),
+var astronaut = require('../../var/epoch-user.json'),
+    prompt = require('prompt'),
     writeson = require('writeson'),
     path = __dirname;
 
- //Main Astronaut function
+//Main Astronaut function
 function init() {
     var myUser = {};
     var schema = {
@@ -32,8 +33,8 @@ function init() {
 
         myUser.name = result.name;
         myUser.email = result.email;
-        myUser.path = path;
-        myUser.host = 'http://127.0.0.1:7890';
+        myUser.path = astronaut.scenario.user.path;
+        myUser.host = astronaut.scenario.user.host;
 
         // Write generated user info to epoch-user.json
         writeson(myUserFile, myUser, function (err) {

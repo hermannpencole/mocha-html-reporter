@@ -2,9 +2,17 @@ var gulp = require('gulp'),
     shell = require('shelljs'),
     webdriver = require('../wdio');
 
-// Systems check
-gulp.task('default', function () {
-    console.log('Voyager');
+// Show README
+gulp.task('default', function() {
+    shell.exec('md-open README.md');
+});
+// Show about
+gulp.task('about', function() {
+    shell.exec('md-open docs/about.md');
+});
+// Show help
+gulp.task('help', function() {
+    shell.exec('md-open docs/help.md');
 });
 // Install wdio requirements
 gulp.task('init', function () {
@@ -35,6 +43,6 @@ gulp.task('test', function() {
     return gulp.src('./test/wdio.*').pipe(webdriver());
 });
 // Create a node-static server instance to serve the './reports' folder
-gulp.task('serve', function() {
-    shell.exec('cd ./reports && php -S 127.0.0.1:7890');
+gulp.task('serve:reports', function() {
+    shell.exec('cd ./reports && php -S 127.0.0.1:7891');
 });
