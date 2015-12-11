@@ -12,4 +12,4 @@ Creates an html fragment with better-mocha-html-reporter and generate an HTML fi
 
 ## Using
 
-`mocha dir --reporter better-mocha-html-reporter | cat node_modules/mocha-html-reporter/docs/head.html - node_modules/mocha-html-reporter/docs/tail.html > test.html`
+`mocha yourDir --reporter better-mocha-html-reporter > test.html && open test.html`
