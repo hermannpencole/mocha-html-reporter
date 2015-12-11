@@ -1,37 +1,24 @@
 {
-  "name": "mocha-html-reporter",
-  "description": "HTML reporter for Mocha",
-  "version": "0.0.1",
+  "name": "better-mocha-html-reporter",
+  "description": "A better HTML reporter for Mocha, forked from mocha-html-reporter",
+  "version": "0.1.0",
   "author": {
-    "name": "Hermann pencolé",
-    "email": "hermann.pencole@gmail.com"
+    "name": "Charles Burgess",
+    "email": "consulting@cvburgess.com"
   },
   "keywords": [
     "mocha",
     "reporter",
     "html"
   ],
-  "licenses": "WTFPL",
+  "licenses": "MIT",
   "dependencies": {},
-  "devDependencies": {
-    "mocha": "1.6.x"
-  },
-  "directories": {
-    "lib": "./lib"
-  },
   "main": "index.js",
   "engines": {
     "node": ">= 0.6.0"
   },
-  "scripts": {
-    "test": "mocha"
-  },
   "repository": {
     "type": "git",
-    "url": "git://github.com/HermannPencole/mocha-html-reporter.git"
-  },
-  "readme": "mocha-html-reporter\n===================\n",
-  "readmeFilename": "Readme.md",
-  "_id": "mocha-html-reporter@0.0.1",
-  "_from": "mocha-html-reporter@*"
+    "url": "https://github.com/cvburgess/better-mocha-html-reporter"
+  }
 }
