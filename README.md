@@ -8,7 +8,7 @@ Creates an html fragment with better-mocha-html-reporter and generate an HTML fi
 
 ## Install
 
-`npm install mocha-html-reporter`
+`npm install better-mocha-html-reporter`
 
 ## Using
 
