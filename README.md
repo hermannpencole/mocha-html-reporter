@@ -1,16 +1,15 @@
-mocha-html-reporter
-===================
+# Better HTML Mocha reporter
 
-HTML reporter for Mocha.
+An extensible HTML reporter for Mocha
 
-# Use
+## What it does
 
-Create html fragment with mocha-html-reporter and add head and tail.
+Creates an html fragment with better-mocha-html-reporter and generate an HTML file
 
-<pre>
-# npm install mocha-html-reporter
+## Install
 
-# mocha dir --reporter mocha-html-reporter |  \  
-	cat node_modules/mocha-html-reporter/docs/head.html - node_modules/mocha-html-reporter/docs/tail.html \  
-	> test.html
-</pre>
+`npm install better-mocha-html-reporter`
+
+## Using
+
+`mocha yourDir --reporter better-mocha-html-reporter > test.html && open test.html`
